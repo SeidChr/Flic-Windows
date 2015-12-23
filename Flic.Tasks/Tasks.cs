@@ -7,7 +7,6 @@
     using Windows.Devices.Bluetooth.Advertisement;
     using Windows.Devices.Bluetooth.Background;
     using Windows.Security.Cryptography;
-    using Windows.System;
 
     public sealed class Tasks : IBackgroundTask
     {
@@ -21,14 +20,8 @@
 
             var advertisements = details.Advertisements;
             foreach (var args in advertisements)
-            {
-                if (!args.Advertisement.Flags.HasValue || args.Advertisement.Flags.Value == (BluetoothLEAdvertisementFlags)0x6)
-                {
-                    continue;
-                }
-
+            {                
                 Debug.WriteLine("-- Beacon ----------");
-
                 Debug.WriteLine(Enum.GetName(typeof(BluetoothLEAdvertisementType), args.AdvertisementType));
                 Debug.WriteLine("BluetoothAddress: {0:X}", args.BluetoothAddress);
                 Debug.WriteLine("Raw Signal Strength In DBm: {0}", args.RawSignalStrengthInDBm);
@@ -47,7 +40,6 @@
                 if (args.Advertisement.Flags == null)
                 {
                     Debug.WriteLine("\tnull");
-
                 }
                 else
                 {
