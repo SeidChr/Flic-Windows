@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flic.App", "FlicApp\Flic.App.csproj", "{332761D5-0568-4075-A55D-148E292621DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flic.Tasks", "FlicBluetoothTask\Flic.Tasks.csproj", "{49490E3E-57AB-4683-8206-5F7672F0061E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{332761D5-0568-4075-A55D-148E292621DF}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{332761D5-0568-4075-A55D-148E292621DF}.Debug|Any CPU.Build.0 = Debug|x86
+		{332761D5-0568-4075-A55D-148E292621DF}.Debug|Any CPU.Deploy.0 = Debug|x86
+		{332761D5-0568-4075-A55D-148E292621DF}.Debug|ARM.ActiveCfg = Debug|ARM
+		{332761D5-0568-4075-A55D-148E292621DF}.Debug|ARM.Build.0 = Debug|ARM
+		{332761D5-0568-4075-A55D-148E292621DF}.Debug|ARM.Deploy.0 = Debug|ARM
+		{332761D5-0568-4075-A55D-148E292621DF}.Debug|x64.ActiveCfg = Debug|x64
+		{332761D5-0568-4075-A55D-148E292621DF}.Debug|x64.Build.0 = Debug|x64
+		{332761D5-0568-4075-A55D-148E292621DF}.Debug|x64.Deploy.0 = Debug|x64
+		{332761D5-0568-4075-A55D-148E292621DF}.Debug|x86.ActiveCfg = Debug|x86
+		{332761D5-0568-4075-A55D-148E292621DF}.Debug|x86.Build.0 = Debug|x86
+		{332761D5-0568-4075-A55D-148E292621DF}.Debug|x86.Deploy.0 = Debug|x86
+		{332761D5-0568-4075-A55D-148E292621DF}.Release|Any CPU.ActiveCfg = Release|x86
+		{332761D5-0568-4075-A55D-148E292621DF}.Release|ARM.ActiveCfg = Release|ARM
+		{332761D5-0568-4075-A55D-148E292621DF}.Release|ARM.Build.0 = Release|ARM
+		{332761D5-0568-4075-A55D-148E292621DF}.Release|ARM.Deploy.0 = Release|ARM
+		{332761D5-0568-4075-A55D-148E292621DF}.Release|x64.ActiveCfg = Release|x64
+		{332761D5-0568-4075-A55D-148E292621DF}.Release|x64.Build.0 = Release|x64
+		{332761D5-0568-4075-A55D-148E292621DF}.Release|x64.Deploy.0 = Release|x64
+		{332761D5-0568-4075-A55D-148E292621DF}.Release|x86.ActiveCfg = Release|x86
+		{332761D5-0568-4075-A55D-148E292621DF}.Release|x86.Build.0 = Release|x86
+		{332761D5-0568-4075-A55D-148E292621DF}.Release|x86.Deploy.0 = Release|x86
+		{49490E3E-57AB-4683-8206-5F7672F0061E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49490E3E-57AB-4683-8206-5F7672F0061E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49490E3E-57AB-4683-8206-5F7672F0061E}.Debug|ARM.ActiveCfg = Debug|ARM
+		{49490E3E-57AB-4683-8206-5F7672F0061E}.Debug|ARM.Build.0 = Debug|ARM
+		{49490E3E-57AB-4683-8206-5F7672F0061E}.Debug|x64.ActiveCfg = Debug|x64
+		{49490E3E-57AB-4683-8206-5F7672F0061E}.Debug|x64.Build.0 = Debug|x64
+		{49490E3E-57AB-4683-8206-5F7672F0061E}.Debug|x86.ActiveCfg = Debug|x86
+		{49490E3E-57AB-4683-8206-5F7672F0061E}.Debug|x86.Build.0 = Debug|x86
+		{49490E3E-57AB-4683-8206-5F7672F0061E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49490E3E-57AB-4683-8206-5F7672F0061E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49490E3E-57AB-4683-8206-5F7672F0061E}.Release|ARM.ActiveCfg = Release|ARM
+		{49490E3E-57AB-4683-8206-5F7672F0061E}.Release|ARM.Build.0 = Release|ARM
+		{49490E3E-57AB-4683-8206-5F7672F0061E}.Release|x64.ActiveCfg = Release|x64
+		{49490E3E-57AB-4683-8206-5F7672F0061E}.Release|x64.Build.0 = Release|x64
+		{49490E3E-57AB-4683-8206-5F7672F0061E}.Release|x86.ActiveCfg = Release|x86
+		{49490E3E-57AB-4683-8206-5F7672F0061E}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
