@@ -128,7 +128,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FlicBluetoothTask\Flic.Tasks.csproj">
+    <ProjectReference Include="..\Flic.Tasks\Flic.Tasks.csproj">
       <Project>{49490e3e-57ab-4683-8206-5f7672f0061e}</Project>
       <Name>Flic.Tasks</Name>
     </ProjectReference>

@@ -1,10 +1,11 @@
-﻿namespace Flic.App
+﻿using System;
+using System.Linq;
+using Windows.ApplicationModel.Background;
+using Windows.UI.Xaml;
+using Flic.Tasks;
+
+namespace Flic.App
 {
-    using System;
-    using System.Linq;
-    
-    using Windows.ApplicationModel.Background;
-    using Windows.UI.Xaml;
 
     /// <summary>
     /// Provides application-specific behavior to supplement the default Application class.
@@ -13,9 +14,7 @@
     {
         private const string TaskName = "BluetoothTask";
 
-        private const string TaskEntryPoint = "Flic.Tasks.Tasks";
-
-        private readonly Guid FlicServiceUuid = new Guid("f02adfc0-26e7-11e4-9edc-0002a5d5c51b");
+        private readonly Guid flicServiceUuid = new Guid("f02adfc0-26e7-11e4-9edc-0002a5d5c51b");
 
         /// <summary>
         /// Initializes the singleton application object.  This is the first line of authored code
@@ -35,10 +34,14 @@
                 return;
             }
 
-            var backgroundTaskBuilder = new BackgroundTaskBuilder { Name = TaskName, TaskEntryPoint = TaskEntryPoint };
+            var backgroundTaskBuilder = new BackgroundTaskBuilder
+            {
+                Name = TaskName,
+                TaskEntryPoint = typeof(AdvertisementHandler).FullName
+            };
 
             var trigger = new BluetoothLEAdvertisementWatcherTrigger();
-            trigger.AdvertisementFilter.Advertisement.ServiceUuids.Add(FlicServiceUuid);
+            trigger.AdvertisementFilter.Advertisement.ServiceUuids.Add(flicServiceUuid);
             trigger.SignalStrengthFilter.SamplingInterval = TimeSpan.FromMilliseconds(1000);
 
             backgroundTaskBuilder.SetTrigger(trigger);

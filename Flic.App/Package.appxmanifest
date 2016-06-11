@@ -21,7 +21,7 @@
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>
       <Extensions>
-        <Extension Category="windows.backgroundTasks" EntryPoint="Flic.Tasks.Tasks">
+        <Extension Category="windows.backgroundTasks" EntryPoint="Flic.Tasks.AdvertisementHandler">
           <BackgroundTasks>
             <Task Type="bluetooth" />
           </BackgroundTasks>
