@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flic.App", "FlicApp\Flic.App.csproj", "{332761D5-0568-4075-A55D-148E292621DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flic.App", "Flic.App\Flic.App.csproj", "{332761D5-0568-4075-A55D-148E292621DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flic.Tasks", "FlicBluetoothTask\Flic.Tasks.csproj", "{49490E3E-57AB-4683-8206-5F7672F0061E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flic.Tasks", "Flic.Tasks\Flic.Tasks.csproj", "{49490E3E-57AB-4683-8206-5F7672F0061E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
